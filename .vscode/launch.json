@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "projectName":"STM32F103-drivers",
+    "configurations": [
+    {
+        "name": "STLink debug",
+        "cwd": "${workspaceFolder}",
+        "executable": "${workspaceFolder}/build/blink.elf",
+        "request": "attach",
+        "type":"cortex-debug",
+        "servertype": "stutil",
+        "device": "STM32F103C8",
+        "interface": "swd",
+    }]
+}

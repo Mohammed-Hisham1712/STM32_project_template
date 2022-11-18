@@ -1,0 +1,11 @@
+{
+    "cortex-debug.gdbPath": "/opt/gcc-arm/bin/arm-none-eabi-gdb",
+    "cortex-debug.stutilPath": "/usr/bin/st-util",
+    "files.associations": {
+        "*.old": "c",
+        "rcc_interface.h": "c",
+        "nvic.h": "c",
+        "gpio_interface.h": "c"
+    },
+    "cortex-debug.variableUseNaturalFormat": true,
+}
